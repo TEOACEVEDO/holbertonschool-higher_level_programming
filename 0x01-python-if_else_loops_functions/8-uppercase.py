@@ -6,4 +6,3 @@ def uppercase(str):
             pt -= 32
         print('{:c}'.format(pt), end="")
     print()
-    
