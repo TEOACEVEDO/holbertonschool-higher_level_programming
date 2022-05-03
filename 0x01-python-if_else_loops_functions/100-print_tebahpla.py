@@ -3,4 +3,4 @@ for i in reversed(range(97, 122)):
     if(i % 2 == 0):
         print(chr(i), end='')
     else:
-        print(chr(i -32), end='')
+        print(chr(i - 32), end='')
