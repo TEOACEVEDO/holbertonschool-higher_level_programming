@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-from unittest import result
-
-
 if __name__ == "__main__":
     from sys import argv, exit
-    import calculator_1
+    from calculator_1 import add, sub, mul, div
 if(argv != 4):
     print("Usage: ./100-my_calculator.py <a> <operator> <b>")
     exit(1)
