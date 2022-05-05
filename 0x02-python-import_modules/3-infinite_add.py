@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from sys import argv
-t, suma = 1, 0
+t = 1
+suma = 1
 
 while t < len(argv):
     suma += int(argv[t])
