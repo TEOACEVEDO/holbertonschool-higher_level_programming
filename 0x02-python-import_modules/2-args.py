@@ -6,7 +6,6 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif(argv_1 == 1):
         print(f"{argv_1} argument:")
-        print(f"{argv_1}: {argv[1]}")
     elif(argv_1 > 1):
         print(f"{argv_1} arguments:")
     for i in range(1, argv_1 + 1):
