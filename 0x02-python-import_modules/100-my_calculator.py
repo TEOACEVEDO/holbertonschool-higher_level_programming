@@ -11,10 +11,10 @@ if(argv[2] != "+" and argv[2] != "-" and argv[2] != "*" and argv[2] != "/"):
 a = int(argv[1])
 b = int(argv[3])
 if(argv[2] == '+'):
-    print(f"{a} {argv[2]} {b} {add(a, b)}")
+    print(f"{a} {argv[2]} {b} = {add(a, b)}")
 elif(argv[2] == '-'):
-    print(f"{a} {argv[2]} {b} {sub(a, b)}")
+    print(f"{a} {argv[2]} {b} = {sub(a, b)}")
 elif(argv[2] == '*'):
-    print(f"{a} {argv[2]} {b} {mul(a, b)}")
+    print(f"{a} {argv[2]} {b} = {mul(a, b)}")
 elif(argv[2] == '/'):
-    print(f"{a} {argv[2]} {b} {div(a, b)}")
+    print(f"{a} {argv[2]} {b} = {div(a, b)}")
