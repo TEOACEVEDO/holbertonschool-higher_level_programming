@@ -1,4 +1,4 @@
-#!/usr/bin/python3}
+#!/usr/bin/python3
 """
 Function that prints a square
 """
@@ -14,5 +14,7 @@ def print_square(size):
     if size < 0:
         raise ValueError('size must be >= 0')
 
-    for i in range(size):
-        print('#' * size)
+    for i in range(0, size):
+        for z in range(0, size):
+            print('#', end='')
+        print()
