@@ -10,14 +10,19 @@ def text_indentation(text):
     """
     function that prints a text with 2 new lines
     """
+    flag = True
 
-    if not type(text) is (str):
+    if type(text) != (str):
         raise TypeError("text must be a string")
 
     for i in text:
+        if i == ' ' and flag is True:
+            continue
         if i in ['.', '?', ':']:
-            print(i, end='')
+            print(i, end="")
             print()
             print()
+            flag = True
         else:
-            print(i, end='')
+            print(i, end="")
+            flag = False
