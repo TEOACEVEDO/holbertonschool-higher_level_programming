@@ -1,5 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/python3}
+"""
+Function that prints a square
+"""
+
+
 def print_square(size):
+    """
+    Function that prints a square
+    """
+    
     if not type(size) is (int):
         raise TypeError('size must be an integer')
     if size < 0:
