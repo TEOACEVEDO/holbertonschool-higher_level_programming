@@ -5,7 +5,6 @@
 class Rectangle:
     """Class rectangle that defines a rectangel by based on 0-rectangle.py"""
 
-
     def __init__(self, width=0, height=0):
         """ Constructor Method for Rectangle """
 
@@ -41,7 +40,7 @@ class Rectangle:
         return self.width * self.__height
 
     def perimeter(self):
-        if self.__width == 0 or self.__height == 0:    
+        if self.__width == 0 or self.__height == 0:
             return 0
         else:
             return (self.__width + self.__height) * 2
