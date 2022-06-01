@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def magic_string(str=[]):
-    str.append("Holberton")
-    return ", ".join(str)
+def magic_string(ds=[]):
+    ds.append("Holberton")
+    return ", ".join(ds)
