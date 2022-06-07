@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is an empty BaseGeometry class."""
+"""This is a BaseGeometry class."""
 
 
 class BaseGeometry:
@@ -13,4 +13,4 @@ class BaseGeometry:
             raise TypeError(f"{name} must be an integer")
 
         if value < 0 or value == 0:
-            raise TypeError(f"{name} must be greater than 0")
+            raise ValueError(f"{name} must be greater than 0")

@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""this function is used to know if the obj is exactly an instance of the specified class"""
+"""this function is used to know if the obj"""
+"""is exactly an instance of the specified class"""
 
 
 def is_same_class(obj, a_class):
