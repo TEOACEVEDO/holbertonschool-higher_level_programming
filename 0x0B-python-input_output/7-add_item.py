@@ -10,7 +10,7 @@ load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 def add_item(filename=""):
     """arguments to python list, next convert to json
-    and then write i a file"""
+    and then write a file"""
 
     try:
         file_json = load_from_json_file(filename)
