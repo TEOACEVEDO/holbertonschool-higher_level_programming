@@ -26,6 +26,3 @@ This project will help you be ready for it.</p>
 <li>Serialization/Deserialization</li>
 <li>JSON</li>
 </ul>
-
-<IMG SRC="https://www.mundoperro.net/wp-content/uploads/perro-pelota.gif">
-
