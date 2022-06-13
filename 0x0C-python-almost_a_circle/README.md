@@ -27,4 +27,5 @@ This project will help you be ready for it.</p>
 <li>JSON</li>
 </ul>
 
-![](https://www.mundoperro.net/wp-content/uploads/perro-pelota.gif)
+<IMG SRC="https://www.mundoperro.net/wp-content/uploads/perro-pelota.gif">
+
