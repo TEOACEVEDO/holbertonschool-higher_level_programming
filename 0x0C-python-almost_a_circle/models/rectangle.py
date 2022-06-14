@@ -33,7 +33,13 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         """return a dictionary"""
-        return (vars(self))
+        return {
+            'x': self.x,
+            'y': self.y,
+            'id': self.id,
+            'height': self.height,
+            'width': self.width
+            }
 
     def area(self):
         """Returns the area of rectangle"""
