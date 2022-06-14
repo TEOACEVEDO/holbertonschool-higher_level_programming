@@ -28,7 +28,12 @@ class Square(Rectangle):
 
     def to_dictionary(self):
         """return format of dictionary"""
-        return (vars(self))
+        return {
+            'id': self.id,
+            'x': self.x,
+            'size': self.size,
+            'y': self.y
+            }
 
     def update(self, *args, **kwargs):
         """update the values of rectangle instances"""
