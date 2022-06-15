@@ -2,7 +2,7 @@
 """Models Base
 Unittest: tests/test_base.py"""
 
-
+from os import path
 import json
 
 
@@ -61,6 +61,8 @@ class Base:
     @classmethod
     def load_from_file(cls):
         """a class method that returns a list of instances"""
+        if path.exists(cls.__name__ + ".json") is False:
+            return []
         listv = []
         with open(cls.__name__ + ".json", "r", encoding='utf-8') as f:
             listv = cls.from_json_string(f.read())
