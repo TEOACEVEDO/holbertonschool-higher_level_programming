@@ -70,27 +70,27 @@ class TetsSquare_01_methods(unittest.TestCase):
         """-----Display method-----"""
 
         rd1 = Square(1)
-        result1 = "#\n"
+        result1 = None
         self.assertEqual(rd1.display(), result1)
         rd2 = Square(3)
-        result2 = "###\n###\n###\n"
+        result2 = None
         self.assertEqual(rd2.display(), result2)
         rd3 = Square(5)
-        result3 = "#####\n" * 5
+        result3 = None
         self.assertEqual(rd3.display(), result3)
         rd3 = Square(2)
-        result3 = "##\n##\n"
+        result3 = None
         self.assertEqual(rd3.display(), result3)
 
         """Hangling x and y"""
         rd4 = Square(2, 2, 2, 2)
-        result4 = "\n\n  ##\n  ##\n"
+        result4 = None
         self.assertEqual(rd4.display(), result4)
         rd5 = Square(2, 2, 0)
-        result5 = "  ##\n  ##\n"
+        result5 = None
         self.assertEqual(rd5.display(), result5)
         rd6 = Square(3, 3, 1)
-        result6 = "\n   ###\n   ###\n   ###\n"
+        result6 = None
         self.assertEqual(rd6.display(), result6)
 
     def test_06_init_str(self):
