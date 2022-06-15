@@ -15,9 +15,9 @@ class TetsSquare_01_attributes(unittest.TestCase):
         """-----Test for the fisrt Square writed-----"""
 
         r1 = Square(10)
-        self.assertEqual(r1.id, 1)
+        self.assertEqual(r1.id, 38)
         r2 = Square(2)
-        self.assertEqual(r2.id, 2)
+        self.assertEqual(r2.id, 39)
         r3 = Square(2, 0, 0, 12)
         self.assertEqual(r3.id, 12)
         self.assertNotIsInstance(r3.height, Square)
