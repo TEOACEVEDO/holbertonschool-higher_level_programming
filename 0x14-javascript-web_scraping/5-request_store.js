@@ -8,5 +8,5 @@ axios.get(process.argv[2])
       if (err) {
         console.log(err);
       }
-    })
+    });
   });
