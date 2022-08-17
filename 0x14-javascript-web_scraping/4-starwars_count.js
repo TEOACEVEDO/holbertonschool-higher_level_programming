@@ -13,8 +13,4 @@ axios.get(process.argv[2])
       }
     }
     console.log(numero);
-  })
-  .catch(function (error) {
-    // handle error
-    console.log('code :' + error.response.status);
   });
