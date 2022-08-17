@@ -8,5 +8,5 @@ axios.get(process.argv[2])
   })
   .catch(function (error) {
     // handle error
-    console.log(error.response.status);
+    console.log('code: ' + error.response.status);
   });
