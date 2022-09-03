@@ -3,7 +3,6 @@
 Python script non-importable
 """
 
-
 import urllib.request
 
 if __name__ == "__main__":

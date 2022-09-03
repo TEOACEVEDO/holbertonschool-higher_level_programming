@@ -24,4 +24,3 @@ if __name__ == "__main__":
             print("[{}] {}".format(dato.get("id"), dato.get("name")))
     except ValueError:
         print("Not a valid JSON")
-    
